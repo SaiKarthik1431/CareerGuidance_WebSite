@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="coll_logo.jpg" type="image/x-icon" />
+    <style>
+      .box {
+        background-color: Wheat;
+        border: 2px solid #000;
+        padding: 20px;
+        width: 90%;
+        margin: 0 auto;
+        border-radius: 20px;
+      }
+      .frame {
+        background-color: Wheat;
+        display: grid;
+        grid-template-rows: repeat(4, 25%);
+        grid-template-columns: repeat(2, 50%);
+        grid-row-gap: 10px;
+        grid-column-gap: 10px;
+        border-radius: 20px;
+        padding-bottom: 20px;
+      }
+      .frame-item {
+        background: linear-gradient(180deg, #3498db, #2980b9);
+        border: none;
+        color: white;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+        cursor: pointer;
+        transition: transform 0.3s, box-shadow 0.3s, background 0.3s, color 0.3s;
+        transform: translateZ(0);
+        border-radius: 20px;
+        font-weight: bold;
+        box-shadow: 0 5px 0 #1e71b8; /* Add a box shadow to create the 3D effect */
+      }
+
+      .frame-item:hover {
+        background: linear-gradient(180deg, #2980b9, #3498db);
+        transform: translateY(-3px);
+        box-shadow: 0 2px 0 #1e71b8;
+        color: rosybrown;
+      }
+      .frame-item a {
+        color: white;
+      }
+      .frame-item a:hover {
+        color: rosybrown;
+      }
+      .navbar {
+        background-color: lightpink;
+        color: cornflowerblue;
+        display: flex;
+        align-items: center;
+        padding: 10px 20px;
+        border-radius: 20px;
+        transition: transform 0.3s, box-shadow 0.3s, background 0.3s; /* Add transition effect */
+        transform: translateZ(0);
+        box-shadow: 0 5px 0 #1e71b8; /* Add a box shadow to create the 3D effect */
+      }
+      .navbar:hover {
+        background-color: MediumVioletRed; /* Change background color on hover */
+        transform: translateY(-3px); /* Lift the button on hover */
+        box-shadow: 0 5px 0 black; /* Add a box shadow to create the 3D effect */
+      }
+      .navbar img {
+        margin-right: 10px;
+        height: 35px;
+        cursor: pointer;
+      }
+      body {
+        text-align: center;
+        margin-top: 20px;
+        background-color: Bisque;
+      }
+      .paragraphs {
+        font-weight: bold;
+        font-style: oblique;
+        font-family: serif;
+        margin-left: 30px;
+        margin-right: 30px;
+      }
+      .navbar a {
+        text-decoration: none;
+        color: navy;
+        margin-right: 20px;
+        padding: 10px 20px;
+        border-radius: 10px;
+        transition: transform 0.3s, box-shadow 0.3s, background 0.3s, color 0.3s;
+        transform: translateZ(0);
+        box-shadow: 0 3px 0 #ff5722;
+        font-weight: bold;
+      }
+      .navbar a:hover {
+        background-color: floralwhite;
+        color: indigo;
+        transform: translateY(-3px);
+        box-shadow: 0 0 0 #ff5722;
+        text-decoration: underline;
+      }
+      .para {
+        font-style: oblique;
+        font-family: serif;
+        margin-left: 30px;
+        margin-right: 30px;
+      }
+      .h1frame {
+        background: BurlyWood;
+        border: none;
+        color: navy;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+        font-weight: bold;
+        text-decoration: none;
+        box-shadow: 0 5px 0 #1e71b8; /* Add a box shadow to create the 3D effect */
+      }
+      .h1frame:hover {
+        box-shadow: 0 5px 0 black; /* Add a box shadow to create the 3D effect */
+      }
+      .paragraphs:hover {
+        transform: translateY(-3px);
+      }
+    </style>
+    <title>Career Guidance</title>
+  </head>
+  <body>
+    <h1 class="h1frame">CAREER GUIDANCE FOR 10TH CLASS STUDENTS</h1>
+    <div class="navbar">
+      <img src="coll_logo.jpg" alt="Logo" />
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="other.html">Miscellaneous Career Options</a>
+    </div>
+    <div class="paragraphs">
+      <p style="transform: translateY(-3px)">
+        Class 10th is like a benchmark for every student. This is the first step
+        towards a future career. The decisions made at this phase will shape
+        your future. Are you in class 10 and confused about what's after 10?
+        Lakhs of students appear for class 10 boards every year. Most of the
+        students don't have a clear view of their future. That's completely
+        fine! Here you can find your own career path.
+        <br />
+        Here are some popular courses nowadays students are choosing after 10th
+        standard.
+      </p>
+    </div>
+    <div class="box">
+      <div class="frame">
+        <div class="frame-item">
+          <a href="intermediate.html" style="text-decoration: none"
+            >Intermediate Education</a
+          >
+        </div>
+        <div class="frame-item">
+          <a href="diploma.html" style="text-decoration: none">Diploma</a>
+        </div>
+        <div class="frame-item">
+          <a href="ca.html" style="text-decoration: none"
+            >Chartered Accountancy</a
+          >
+        </div>
+        <div class="frame-item">
+          <a href="iti.html" style="text-decoration: none"
+            >Industrial Training Institute (ITI)</a
+          >
+        </div>
+        <div class="frame-item">
+          <a href="nda.html" style="text-decoration: none"
+            >Join the Defense Forces (NDA)</a
+          >
+        </div>
+        <div class="frame-item">
+          <a href="paramedical.html" style="text-decoration: none"
+            >Paramedical Courses</a
+          >
+        </div>
+        <div class="frame-item">
+          <a href="graphic.html" style="text-decoration: none"
+            >Graphic Designing (Animation)</a
+          >
+        </div>
+        <div class="frame-item">
+          <a href="event.html" style="text-decoration: none"
+            >Event Management</a
+          >
+        </div>
+      </div>
+    </div>
+    <p class="paragraphs">
+      2023 All Rights Reserved. Design by MUPPANA SAI KARTHIK
+    </p>
+  </body>
+</html>
